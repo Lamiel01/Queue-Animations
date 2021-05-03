@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons ul li{
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+}
+
+.flex-stack {
+    display: flex;
+    padding: 5vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+.flex-stack div {
+    min-width: 5px;
+    width: auto;
+    margin: 8px;
+    text-align: center;
+    line-height: 15vh;
+    border: 2px solid#581845;
+    font-size: 3vh;
+}
